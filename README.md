@@ -1,9 +1,9 @@
 # Data Science Tools - Coursera Project
 
-Template README markdown from [PurplBooth](https://gist.github.com/PurpleBooth)
+Template README markdown from [PurpleBooth](https://gist.github.com/PurpleBooth)
 
 This project represents the Course project for coursera/data science tools on S. Eannuzzi's Windows 10 desktop and encourage me to 
-take better notes :)
+take better notes :smiley:
 
 ## Getting Started
 
@@ -14,12 +14,13 @@ These instructions augment the notes from class, not replace them.
 See class notes.
 
 ### Installing
-[gitbash]: https://github.com/seannuzzi/datasciencecoursera/gitbash.PNG "git BASH shortcut"
+[gitbash]: https://github.com/seannuzzi/datasciencecoursera/blob/master/gitbash.PNG "git BASH shortcut"
 
 A step by step series of examples that tell you have to get a development env running that were special to my environment
 1. Installed [Microsoft R](https://mran.microsoft.com/open/) instead of the open source R.  Multi-threaded support is needed for my other projects.
   * I was burned by corporate policy around 8.3 filenames.  Fixed by installing R into a directory that did not have spaces in it.  For example: `D:\r\3.3.2`
 1. Changed git Bash short up to remove cd to HOME and set start in to appropriate directory
+
 ![shortcut][gitbash]
 1. Turned off SSL verify to deal with corporate SSL termination by `git config http.sslVerify false`
 
